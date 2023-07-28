@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  height: 80vh;
+}
+
+.resgister-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* background-color: rgb(246, 225, 225); */
+  background-image: url(expenseimage.png);
+  
+}
+
+
+/* transaction page */
+.switch-icons{
+  border: 1px solid rgba(0, 0, 0, 0.888) ;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+.filters{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow:0 0 3px gray;
+}
+
+/* antd icons */
+.anticon_svg{
+  font-size: 20px;
+  cursor: pointer;
+}
+.active-icon{
+  color:black;
+}
+.inactive-icon{
+  color: grey;
+}
+.text-center{
+  color: white;
+}
+
+
